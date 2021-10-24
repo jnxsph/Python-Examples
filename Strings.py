@@ -1,6 +1,6 @@
 print ("Selena " + "Gomez")
 
-//Add Strings
+#Add Strings
 first_name = "Justin "
 last_name = "Bieber"
 full_name = first_name + last_name

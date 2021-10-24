@@ -1,3 +1,25 @@
+# declaring a list in string
+friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
+print(friends)
+
+# declaring a list in numbers
+nums = [12, 54, -24, 116]
+print(nums)
+
+# getting the value of element by its index
+friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
+print(friends[0])
+
+# getting the index of an element
+friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
+Batman_index = friends.index("Batman")
+print(Batman_index)
+
+# setting the value of an element by index/replacing an element by index
+friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
+friends[1] = "Superman"
+print(friends)
+
 # Append or Add a new element
 friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
 friends.append("Superman")

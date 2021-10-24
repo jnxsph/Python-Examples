@@ -1,3 +1,4 @@
+#Using Or in If-Else
 chocolate = True
 ice_cream = False
 

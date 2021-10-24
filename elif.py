@@ -1,6 +1,8 @@
+#Get input from user
 answer = input ("What is your age?")
 age = int (answer)
 
+#Conditions
 if age < 5:
     print("Watch Tom and Jerry.")
 elif age < 15:

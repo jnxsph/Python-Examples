@@ -1,0 +1,16 @@
+friends_age = [17, 18, 19, 20, 21]
+friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
+
+...get element by position
+friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
+print(friends[0])
+
+...get the index
+friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
+Bat_man_index = friends.index("Batman")
+print(Bat_man_index)
+
+...Set by Index
+friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
+friends[3] = "Superman"
+print(friends)

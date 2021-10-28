@@ -106,3 +106,36 @@ def multp_table(n):
 
 
 multp_table(9)
+
+#############################################################################################
+
+# Multiplication Table
+number = int(input("Multiplication Table of: "))
+
+# Using "for loop" to iterate the multiplication 10 times
+for count in range (1, 11):
+    print(number, 'x', count, '=', number * count)
+    
+#############################################################################################
+    
+# Using while loop for Multiplication Table
+# Multiplication Table
+number = int(input("Multiplication Table of: "))
+
+print("The Multiplication Table of: ", number)
+
+count = 1
+while count <= 10:
+    number = number*1
+    print(number, 'x', count, '=', number * count)
+    count += 1
+
+#############################################################################################
+
+
+
+
+
+
+
+

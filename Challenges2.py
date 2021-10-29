@@ -127,22 +127,30 @@ print(average)
 
 #############################################################################################
 
+# find second largest number
+nums = [4, 5, 6, 7, 34, 54, 23, 65, 654, 76]
+nums.remove(max(nums))
+second_largest = max(nums)
+print(second_largest)
 
+#############################################################################################
 
+# find second smallest number
+nums = [4, 5, 6, 7, 34, 54, 23, 65, 654, 76]
+nums.remove(min(nums))
+second_smallest = min(nums)
+print(second_smallest)
 
+#############################################################################################
 
+# find second smallest number using its index
+nums = [4, 5, 6, 7, 34, 54, 23, 65, 654, 76]
+nums = sorted(nums)
+print(nums[1])
 
+# find second smallest number using its index, second way
+nums = [4, 5, 6, 7, 34, 54, 23, 65, 654, 76]
+nums.sort(reverse = True)
+print(nums[1])
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#############################################################################################

@@ -108,8 +108,24 @@ print("Largest number is: ", largest)
 
 #############################################################################################
 
+# largest number of the 3 numbers
+num1 = int(input("1st number: "))
+num2 = int(input("2nd number: "))
+num3 = int(input("3rd number: "))
 
+largest = max(num1, num2, num3)
 
+print("The largest number is: ", largest)
+
+#############################################################################################
+
+# Getting the average of number in the list using mean()
+from statistics import mean
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+average = mean(numbers)
+print(average)
+
+#############################################################################################
 
 
 

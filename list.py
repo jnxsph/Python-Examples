@@ -102,3 +102,11 @@ print(nums)
 friends = ["Batman", "Robin", "Wonderwoman", "Aquaman"]
 friends.reverse()
 print(friends)
+
+#############################################################################################
+
+# Sum of Elements in a list
+nums = [13, 11, 14, 15, 16, 67]
+
+total = sum(nums)
+print(total)

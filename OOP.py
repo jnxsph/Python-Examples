@@ -71,3 +71,55 @@ bal = my_account.get_balance()
 print(bal)
 
 ############################################################################
+
+# Constructor method has a special name >>> __init__
+# Example of a class with constructor
+class Phone:
+    def __init__(self, brand):           # inside the __init__ method, can just write the attribute name after the self parameter
+        self.brand = brand               # Python will add that attribute to the object created by the constructor
+
+my_phone = Phone('Samsung')
+mom_phone = Phone('Nokia 3210')
+print(my_phone.brand)
+print(mom_phone.brand)
+
+############################################################################
+
+# Encapsulation example
+class Bank:
+    def __init__(self, name):
+        self.name = name
+        self.__balance = 1000000         # if an attribute has 2 underscores, it becomes private. It cannot be accessed from outside.
+    def get_balance(self):               # can access the private attributes from anywhere inside the class
+        return self.__balance
+        
+account = Bank('Daniel Chua')
+print(account.name)
+print(account.__balance)
+
+############################################################################
+
+# Polymorphism example
+class Car:
+    car_name = 'Toyota'                            # prints the car name and says the car is moving
+    def move(self):
+        print(self.car_name, 'Car is moving')
+        
+class Truck:
+    truck_name = 'FedEx'
+    def move(self):
+        print(self.truck_name, 'Truck is moving')   # prints the truck name and says the truck is moving
+        
+class Bike:
+    bike_name = 'BMX'
+    def move(self):
+        print(self.bike_name, 'Bike is moving')
+        
+        
+vehicles = [Car(), Truck(), Bike()]               # list of vehicles
+
+for vehicle in vehicles:                          # calling the move method inside the loop
+    vehicle.move()                                # move method can take many forms. Based on the class it's on, it calls the right method in the right class
+
+
+############################################################################

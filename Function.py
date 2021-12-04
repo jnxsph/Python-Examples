@@ -182,8 +182,8 @@ print(total)
 # Converting kilometers to miles function
 def conv_miles():
     k = float(input("Enter Kilometers: "))         # Get kilometers from user
-    conv_miles = 0.621371
-    miles = k * conv_miles                         # formula for kilometers to be converted to miles
+    conversion = 0.621371
+    miles = k * conversion                         # formula for kilometers to be converted to miles
     return miles
 
 print("Miles equivalent:",conv_miles())

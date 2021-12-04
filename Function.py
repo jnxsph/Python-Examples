@@ -8,6 +8,7 @@ def brush_teeth():
     
     
 brush_teeth()
+
 ############################################################################
 
 # providing information to a function
@@ -22,6 +23,7 @@ five_times(3)
 
 x = 18
 five_times(x)
+
 ############################################################################
 
 # defining the parameter
@@ -32,6 +34,7 @@ def add_10(num):
    
 # using the parameter    
 add_10(32)
+
 ############################################################################
 
 # defining multiple parameter
@@ -42,6 +45,7 @@ def add_numbers(first, second):
 
 # using multiple parameter
 add_numbers(10, 2)
+
 ############################################################################
 
 # using return
@@ -63,6 +67,7 @@ x = add(6, 3)
 y = add(4, 5)
 z = add(x, y)
 print(z)
+
 ############################################################################
 
 # another return example
@@ -87,6 +92,7 @@ def evenify(num):
 # print result
 result = evenify(8)
 print(result)
+
 ############################################################################
 
 # another return example
@@ -97,6 +103,7 @@ def is_odd(num):
         return True
         
 print(is_odd(5))
+
 ############################################################################
 
 # iterative function
@@ -111,6 +118,7 @@ def factorial(num):
     
 # print result    
 print(factorial(4))
+
 ############################################################################
 
 # recursive function
@@ -123,6 +131,7 @@ def factorial(n):
         
         
 print(factorial(5))
+
 ############################################################################
 
 # number multiplied by 2 function
@@ -134,6 +143,7 @@ def doublified_list(a, b,c):
 # print result and put result in my_list
 my_list = doublified_list(4, 5, 12)
 print(my_list)
+
 ############################################################################
 
 # default parameter
@@ -149,6 +159,7 @@ print(y)
 
 total = add(x, y)
 print(total)
+
 ############################################################################
 
 # when not sure if about the order of the parameter(arguments)
@@ -165,4 +176,16 @@ print(y)
 
 total = add(b=x, a=y)
 print(total)
+
+############################################################################
+
+# Converting kilometers to miles function
+def conv_miles():
+    k = float(input("Enter Kilometers: "))         # Get kilometers from user
+    conv_miles = 0.621371
+    miles = k * conv_miles                         # formula for kilometers to be converted to miles
+    return miles
+
+print("Miles equivalent:",conv_miles())
+
 ############################################################################
